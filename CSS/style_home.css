@@ -3,13 +3,22 @@
     padding: 0;
 }
 .logo{
+    background-color: teal;
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
 }
-ul{
+ul,h1{
+    padding: 20px;
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 50px;
     align-items: center;
+}
+.contain{
+    background-image: url(../image.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
 }
